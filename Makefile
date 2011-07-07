@@ -1,4 +1,4 @@
-TARGETS=andrew_wagner_cv.pdf 
+TARGETS=andrew_wagner_cv.pdf andrew_wagner_resume.pdf
 all: ${TARGETS} 
 
 %.pdf:%.tex
