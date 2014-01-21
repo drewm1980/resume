@@ -1,0 +1,82 @@
+Andrew W. Wagner
+701 W. Washington St. #1                          cell phone: 312-343-1380
+Urbana, IL 61801                                  fax: 217-244-2352
+http://decision.csl.illinois.edu/∼awagner         e-mail: awagner@illinois.edu
+
+Education
+  Ph.D. cand. in Electrical and Computer Engineering                                  expected August 2011
+  University of Illinois at Urbana-Champaign                                                    Urbana, IL
+   Thesis: Robust and Scalable Face Recognition via Sparse Representation and Parallel Programming
+  M.S. in Electrical and Computer Engineering                                                 December 2006
+  University of Illinois at Urbana-Champaign                                                     Urbana, IL
+   Thesis: Subspace Methods For the Identiﬁcation Of Hybrid Linear Systems
+  B.S. in General Engineering                                                                     May 2003
+  University of Illinois at Urbana-Champaign                                                     Urbana, IL
+  Graduated with Honors and a Minor in Mathematics
+
+Research Interests
+  Computer Vision: Face recognition, Depth cameras, 3D reconstruction, Visual tracking
+  Control: Optimal control of nonlinear systems, Path planning, Hybrid system identiﬁcation
+  Power Electronics: Bi-directional power converters for alternative energy.
+
+Employment
+  Research Assistant                                                                     May 2003 – present
+  Perception and Decision Laboratory, ECE Dept.                                                 Urbana, IL
+  University of Illinois
+  Advisor: Prof. Yi Ma
+  Face Recognition Consultant                                                        Jan. 2009 – Aug. 2009
+  Crispin Porter + Bogusky                                                                    Boulder, CO
+  Teaching Assistant for ECE110: Introduction                                        Jan. 2008 – Dec. 2008
+  to Electrical and Computer Engineering
+  University of Illinois at Urbana-Champaign                                                     Urbana, IL
+
+Selected Publications
+  Towards a Practical Face Recognition System:
+  Robust Alignment and Illumination by Sparse Representation
+  (Andrew Wagner, John Wright, Arvind Ganesh, Hossein Mobahi, Zihan Zhou, Yi Ma)
+  IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011. (under review)
+  Face Recognition with Contiguous Occlusion using Markov Random Fields
+  (Zihan Zhou, Andrew Wagner, Hossein Mobahi, John Wright, Yi Ma)
+  Proc. of the IEEE International Conference on Computer Vision (ICCV), 2009.
+  Towards a Practical Face Recognition: Robust Pose and Illumination via Sparse Representation
+  (Andrew Wagner, John Wright, Arvind Ganesh, Zihan Zhou, Yi Ma)
+  Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009.
+  Homographies and Matching of Ellipses with Application to Forensic Bloodspatter
+  Reconstruction (John Wright, Andrew Wagner, Shankar Rao, Yi Ma) Proc. of the IEEE Conference
+  on Computer Vision and Pattern Recognition (CVPR), 2006.
+  Segmentation of Hybrid Motions via Hybrid Quadratic Surface Analysis (Shankar Rao, Andrew Wagner,
+  Allen Yang, Yi Ma) Proc. of the International Conference on Computer Vision (ICCV), 2005.
+  Identiﬁcation of Hybrid Linear Time-Invariant Systems via Subspace Embedding and Segmentation (Kun
+  Huang, Andrew Wagner, Yi Ma) Proc. of the IEEE Conference on Decision and Control (CDC), 2004.
+Selected Coursework
+  Undergraduate (GPA 3.55):
+    ◦ TAM 212: Engineering Mechanics-Dynamics (A+)
+    ◦ TAM 221: Intro to Solid Mechanics (A)
+    ◦ TAM 235: Intro to Fluid Mechanics (A)
+    ◦ GE 389: Robot Dynamics and Control (A)
+    ◦ GE 491: Simulation of Dynamic Systems (A)
+  Graduate (GPA 3.38):
+    ◦ ECE 449: Computer Vision (A)
+    ◦ ECE 415: Control System Theory and Design (B+)
+    ◦ ECE 451: Digital Signal Processing (B)
+    ◦ GE 493: Graph Algorithms (A)
+    ◦ ECE 442: Microelectronic Circuits (B-)
+    ◦ ECE 598: Multiple-View Geometry (A)
+    ◦ ECE 528: Analysys of Nonlinear Systems (A-)
+    ◦ ECE 550: Advanced Robotic Planning (B)
+    ◦ ECE 520: Electromagnetic Waves and Radiating Systems (A-)
+    ◦ ECE 547: Topics in Image Processing (B)
+    ◦ ECE 490: Introduction to Optimization (B)
+    ◦ ECE 586: Generalized Principle Component Analysis (A)
+    ◦ ECE 553: Optimum Control Systems (B)
+    ◦ ECE 558: Digital Imaging (A)
+    ◦ ECE 464: Power Electronics (B-)
+    ◦ ECE 410: Power Electronics Lab (B)
+
+Skills
+  Programming Languages: C, C++, C for CUDA, Python/Numpy, Matlab, Bash, Latex, Asymptote
+  Programming API’s: OpenCV, BLAS (MKL, uBlas, Eigen), OpenMP, Pthreads
+  Programming Tools: Vim, git, gcc, icc, make, gdb, valgrind
+  Electrical: Atmel ATmega168 Microcontroller, TI C6711 DSP, Electronics Design/Rework
+  Mechanical: Pro/Engineer and Rhino CAD, CNC Milling Machine, Lathe, Laser Cutter
+

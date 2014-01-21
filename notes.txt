@@ -1,0 +1,25 @@
+Ph.D. student Stijn De Bruyne at LMS, Moritz on committee
+
+Improved the latency of our visual kite tracking system by an order of magnitude by
+writing an O(n) feature extractor that makes a single pass through the image data
+rather than four.  
+
+Designed a line angle sensor mechanism that is capable of 360 degrees rotation without resorting to sliprings or wireless communication.
+
+Starting with a codebase with partially automated build that was maintained in one user account on a single machine, 
+Increased number of targets in our flight code that build automatically from about 60% to 100%.
+
+Designed software and hardware architecture for the next generation of power producing plane at KULeuven.  
+
+Recruited, trained, and supervised a team of four electrical engineering job students
+
+Supervised two master's thesis projects
+
+Defined and enforced safety precautions that achieved a perfect safety record despite having students working on machinery that is potentially lethal from both mechanical and electrical standpoints.
+
+(Quadrupled the timing accuracy of signals in our system by triggering the cameras in hardware,
+and installing and tuning priorities of threads in linux with realtime patches.)
+(Wrote a parametric design for a 3D printed multiport air data probe for measuring angle of attack)
+(Optimized the design of a kite launching carousel with dramatically reduced cost and weight)
+
+
