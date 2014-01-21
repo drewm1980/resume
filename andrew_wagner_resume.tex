@@ -1,11 +1,12 @@
-\documentclass[line,lm,rm]{res}
+\documentclass[line,lm,rm,11pt]{res} % 10pt is the default, but is way too small
 
 \name{Andrew W. Wagner}
 \address{
+	%Tiensevest 47, Leuven 3010, Belgium \hspace{1em} cell: 0474 25 82 28 \hspace {1em} email: \texttt{andrew.wagner@esat.kuleuven.be}  
 	\begin{ncolumn}{2}
-	701 W. Washington St. \#1	& cell phone: 312-343-1380 \\
-	Urbana, IL 61801			& e-mail: \texttt{awagner@illinois.edu} \\ 
-		%\texttt{http://decision.csl.illinois.edu/$\sim$awagner} &  
+		Tiensevest 47 & email: andrew.wagner@esat.kuleuven.be \\
+		  Leuven 3010 & mobile: 0474 25 82 28 \\
+			  Belgium & skype: drewm1980
 	\end{ncolumn}
 }
 
@@ -19,7 +20,6 @@
 
 \def\uiuc{University of Illinois at Urbana-Champaign}
 \def\ece{Electrical and Computer Engineering}
-\def\cal{University of California at Berkeley}
 \def\eecs{Electrical Engineering and Computer Science}
 \def\ge{General Engineering}
 \def\bs{\textbf{B.S.}\ }
@@ -47,8 +47,8 @@
 \employer{\uiuc}
 \location{Urbana, IL}
 
-\title{\phd cand. in \ece}
-\dates{expected  August 2011}
+\title{\phd in \ece}
+\dates{August 2011}
 \begin{position}
 \hspace{-00mm}\vspace{-1mm}
 {\bf \footnotesize Thesis: Robust and Scalable Face Recognition via Sparse
@@ -64,90 +64,130 @@
 {\bf \footnotesize Thesis: Subspace Methods For the Identification Of Hybrid Linear Systems}
 \end{position}
 
-% BA
-\item
-\title{\bs in \ge}
-\dates{May 2003}
-\begin{position}
-Graduated with Honors and a Minor in Mathematics
-\end{position}
+%% BA
+%\item
+%\title{\bs in \ge}
+%\dates{May 2003}
+%\begin{position}
+%Graduated with Honors and a Minor in Mathematics
+%\end{position}
+
 \end{itemize}
 
-\vspace{-3mm}
-\section{Research Interests}
-\begin{itemize}
-\item 
-\spaceline
-{\bf Computer Vision:} Depth cameras, Stereo vision, 3D reconstruction, Image Registration
-\item {\bf Control:} Optimal control of nonlinear systems, Path planning 
-\end{itemize}
 
-\vspace{-3mm}
+%\vspace{-3mm}
 \section{Employment}
 \begin{itemize}
 \item
 	\spaceline
-	\title{\bf Research Assistant}
-	\employer{Perception and Decision Laboratory, ECE Dept. \\ University of Illinois\\ Advisor: Prof. Yi Ma}
-	\location{Urbana, IL}
-	\dates{May 2003 -- present}
+	\title{\bf Post-Doc Researcher in Airborne Wind Energy }
+	\employer{KU Leuven, HIGHWIND Project \\ Supervisor: Prof. Moritz Diehl}
+	\location{Leuven, Belgium}
+	\dates{Jan. 2012 -- {\bf Mar. 2014}}
 	\begin{position}
 	\vspace{-2mm}
+	\begin{itemize}
+		\item Acted as a project coordinator and 3 engineers at the same time (Software, Electrical, and Mechanical)
+		\item Designed software and hardware architecture for a prototype power-producing kite plane and launching system.
+		\item Rewrote visual tracking system; improved latency by an order of magnitude using O(n) single-pass feature extractor.
+		\item Designed a load-bearing tether angle sensor mechanism that can rotate 360 degrees without resorting to sliprings or wireless communication.
+		\item Improved development workflow by transitioning the project version control from svn to git and the build system from cmake to tup.
+		\item Recruited, trained, and supervised four electrical engineering job students.
+		\item Supervised two master's thesis projects.
+		\item Taught an undergraduate EE robotics design class.
+		%\item Defined and enforced safety precautions that achieved a perfect safety record despite having students working on machinery that is potentially lethal from both mechanical and electrical standpoints.
+
+%(Quadrupled the timing accuracy of signals in our system by triggering the cameras in hardware,
+%and installing and tuning priorities of threads in linux with realtime patches.)
+%(Wrote a parametric design for a 3D printed multiport air data probe for measuring angle of attack)
+%(Optimized the design of a kite launching carousel with dramatically reduced cost and weight)
+	\end{itemize}
 	\end{position}
 \item
-	\title{\bf Face Recognition Consultant}
-	\employer{Crispin Porter + Bogusky}
-	\location{Boulder, CO}
-	\dates{Jan. 2009 -- Aug. 2009}
+	\title{{\bf Ph.D. Researcher in Computer Vision}}
+	\employer{University of Illinois, Perception and Decision Lab\\ Advisor: Prof. Yi Ma}
+	\location{Urbana, IL, USA}
+	\dates{May 2003 -- Oct. 2011}
 	\begin{position}
-	\vspace{-4mm}
+	\vspace{-2mm}
+	\begin{itemize}
+		\item Designed and Implemented a system for rapidly acquiring images of a person's face under different illuminations, based on a synchronized projector array / camera system.
+		\item Implemented L1-Minimization based face recognition system that achieved state of the art recognition performance on unaligned face images with illumination variance and partial occlusions.
+		\item Optimized recognition speed via parallelized CPU (OpenMP) and GPU (CUDA) implementations.
+		\item Taught an undergrate project-based EE class covering basic analog and digital design.
+	\end{itemize}
 	\end{position}
-\item
-	\title{\bf Teaching Assistant for ECE110: Introduction to Electrical and Computer Engineering}
-	\employer{University of Illinois at Urbana-Champaign}
-	\location{Urbana, IL}
-	\dates{Jan. 2008 -- Dec. 2008}
-	\begin{position}
-	\vspace{-4mm}
-	\end{position}
+%\item
+	%\title{\bf Face Recognition Consultant}
+	%\employer{Crispin Porter + Bogusky}
+	%\location{Boulder, CO, USA}
+	%\dates{Jan. 2009 -- Aug. 2009}
+	%\begin{position}
+	%\vspace{-4mm}
+	%\end{position}
+%\item
+	%\title{\bf Teaching Assistant for ECE110: Introduction to Electrical and Computer Engineering}
+	%\employer{University of Illinois at Urbana-Champaign}
+	%\location{Urbana, IL, USA}
+	%\dates{Jan. 2008 -- Dec. 2008}
+	%\begin{position}
+	%\vspace{-4mm}
+	%\end{position}
 \end{itemize}
 
-\vspace{-3mm}
-\section{Selected Publications}
-\begin{itemize}
-\item 
-\spaceline
-Towards a Practical Face Recognition System: \\Robust Alignment and Illumination by Sparse Representation \\
-		({\bf Andrew Wagner}, John Wright, Arvind Ganesh, Hossein Mobahi, Zihan Zhou, Yi Ma) \\
-{ \it IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011. (under review) }
-\item
-		Face Recognition with Contiguous Occlusion using Markov Random Fields \\
-			(Zihan Zhou, {\bf Andrew Wagner}, Hossein Mobahi, John Wright, Yi Ma) \\
-{\it Proc. of the IEEE International Conference on Computer Vision (ICCV), 2009.}
-%\item Towards a Practical Face Recognition: Robust Pose and Illumination via Sparse Representation \\
-		%({\bf Andrew Wagner}, John Wright, Arvind Ganesh, Zihan Zhou, Yi Ma) \\
-%{ \it Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009. }
-%\item The Algebra and Statistics of Generalized Principal Component Analysis 
-% ({Shankar Rao}, Harm Derksen, Robert Fossum, Yi Ma, { Andrew Wagner}, Allen Yang) {\it Proc. of the VCIP Special Session on the Mathematics of Imaging, 2007.}
-\item Homographies and Matching of Ellipses with Application to Forensic Bloodspatter \\
-	Reconstruction 
-(John Wright, {\bf Andrew Wagner}, {Shankar Rao},  Yi Ma) 
-{\it Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2006.}
-%\item Segmentation of Hybrid Motions via Hybrid Quadratic Surface Analysis ({Shankar Rao}, {\bf Andrew Wagner}, Allen Yang, Yi Ma) {\it Proc. of the International Conference on Computer Vision (ICCV), 2005.}
-%\item Hilbert Functions and Applications to the Estimation of Subspace Arrangements (Allen Yang, {Shankar Rao}, %{\bf Andrew Wagner}, Robert Fossum, Yi Ma) {\it Proc. of the International Conference on Computer Vision (ICCV), 2005.}
-%\item Segmentation of a Piece-Wise Planar Scene from Perspective Images (Allen Yang, {Shankar Rao}, { Andrew Wagner}, Yi Ma) {\it Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2005.}
-\item Identification of Hybrid Linear Time-Invariant Systems via Subspace Embedding and Segmentation (Kun Huang, {\bf Andrew Wagner}, Yi Ma) {\it Proc. of the IEEE Conference on Decision and Control (CDC), 2004.}
-\end{itemize}
-\vspace{-0.2in}
+%\vspace{-3mm}
 \section{Skills}
 	\begin{itemize}
 	\item 
 	\spaceline
-{\bf Programming Languages: } C, C++, C for CUDA, Python/Numpy, Matlab, Bash, Latex, Asymptote
-\item {\bf Programming API's: } OpenCV, BLAS (MKL, uBlas, Eigen), OpenMP, Pthreads
-\item {\bf Programming Tools: } Vim, git, gcc, icc, make, gdb, valgrind
-\item {\bf Electrical: } Atmel ATmega168 Microcontroller, TI C6711 DSP, Electronics Design/Rework 
-\item {\bf Mechanical: } Pro/Engineer and Rhino CAD, CNC Milling Machine, Lathe, Laser Cutter 
+{\bf Spoken Languages: } English (Chicago Native), French (Intermediate)
+\item {\bf Programming Languages: } C, C++, Python, Bash, MATLAB/Simulink, lua
+\item {\bf General APIs: } Linux, OpenMP, CUDA, Blas
+\item {\bf Specialized APIs: } OpenCV, Orocos, CasADi, ACADO Toolkit
+\item {\bf Programming Tools: } Vim, git/svn, clang/gcc/icc, make/CMake/tup, valgrind/gdb
+\item {\bf Embedded Platforms: } BeagleBone/ARM, Arduino/Atmel, TI/C6711
+\item {\bf Mechanical: } Basic Machining (Mill, Lathe), Laser Cutter, CAD (Rhino, ProE, openscad)
+\item {\bf Electrical: } Basic Digital and Analog circuit design, PCB layout/population/rework
 \end{itemize}
-		\end{resume}
-		\end{document}
+
+%\vspace{-3mm}
+\section{Research Interests}
+\begin{itemize}
+\item 
+	\spaceline
+	{\bf Sensing:} Camera Arrays, Depth cameras, Laser Scanners, IMU Sensor Fusion
+\item 
+	{\bf Control:} Optimal control of nonlinear systems, Path Planning, State Estimation
+\item 
+	{\bf Vision:} 3D reconstruction, Optimization based image registration, L1 Minimization/Sparsity
+\end{itemize}
+
+%\vspace{-3mm}
+\section{Selected Publications}
+\begin{itemize}
+	\item 
+		\spaceline
+		Book Chapter: An experimental test setup for advanced estimation and control of an airborne wind energy system. 
+		(Kurt Geebelen, Milan Vukov, {\bf Andrew Wagner}, et al. )
+		{\it Airborne Wind Energy, Springer, 2013.}
+	\item 
+		Moving Horizon Estimation with a Huber Penalty Function for Robust Pose Estimation of Tethered Airplanes. 
+		(Kurt Geebelen, {\bf Andrew Wagner}, Sebastien Gros, Jan Swevers and Moritz Diehl.) 
+		{\it Proc. of the 2013 American Control Conference (ACC), 2013.}
+	\item 
+		Towards a Practical Face Recognition System: \\Robust Alignment and Illumination by Sparse Representation \\
+		({\bf Andrew Wagner}, John Wright, Arvind Ganesh, Hossein Mobahi, Zihan Zhou, Yi Ma) \\
+		{ \it IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011. }
+\item
+		Face Recognition with Contiguous Occlusion using Markov Random Fields \\
+			(Zihan Zhou, {\bf Andrew Wagner}, Hossein Mobahi, John Wright, Yi Ma) \\
+		{\it Proc. of the IEEE International Conference on Computer Vision (ICCV), 2009.}
+	\item Homographies and Matching of Ellipses with Application to Forensic Bloodspatter \\
+		Reconstruction 
+		(John Wright, {\bf Andrew Wagner}, {Shankar Rao},  Yi Ma) 
+		{\it Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2006.}
+	\item Identification of Hybrid Linear Time-Invariant Systems via Subspace Embedding and Segmentation (Kun Huang, {\bf Andrew Wagner}, Yi Ma) {\it Proc. of the IEEE Conference on Decision and Control (CDC), 2004.}
+\end{itemize}
+
+\end{resume}
+\end{document}
